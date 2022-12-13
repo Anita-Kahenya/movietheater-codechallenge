@@ -36,7 +36,8 @@ The website allows user to buy ticteks  and view the remaining number of tickets
 Or you can access the web application directly via this [LINK.](https://joanne-cmd.github.io/movietheater-codechallenge/)
 ***
 ## Dependencies
--json
+-node
+json server
 *****
 ## Technologies Used
 1. HTML
