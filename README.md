@@ -1,6 +1,6 @@
 # movietheater-codechallenge
 *****
-### joanne muthoni clear : 2022
+### joanne muthoni: 2022
 ****
 ## Project Description
 Movietheater code challenge is about  creating a mini web site  that can display  the  current movies in the theater and  the user can veiw the detials of the movie  that is  : the title  , the show time , the available tickes  and also the movie description.
@@ -30,12 +30,11 @@ The website allows user to buy ticteks  and view the remaining number of tickets
 * Open the folder location on terminal and use the following command to run app:
 
 ## How To Run It
->  $ pip install -r requirements.txt
-To install all requirements
-
-> $ python3 manage.py runserver
-Then run server with the above command
+>  open the web browers and  and cope and paste the live link.
 *****
+## Live Link
+Or you can access the web application directly via this [LINK.](https://joanne-cmd.github.io/movietheater-codechallenge/)
+***
 ## Dependencies
 -json
 *****
