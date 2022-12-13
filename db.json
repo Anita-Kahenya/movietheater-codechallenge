@@ -1,0 +1,67 @@
+
+  {
+ 
+    "films": [
+    
+     {
+    
+         "id": "1",
+    
+         "title": "The Queen Of Death",
+    
+         "runtime": "108",
+    
+         "capacity": 30,
+    
+         "showtime": "04:00PM",
+    
+         "tickets_sold": 27,
+    
+         "description": "A giant lizard terrorizes a rural Texas community and a heroic teenager attempts to destroy the creature.",
+    
+         "poster": "https://cdn.pixabay.com/photo/2019/04/14/14/09/fantasy-4126847__340.jpg"
+    
+       },
+       {
+
+        "id": "2",
+    
+        "title": "Manos: The Hands Of Fate",
+    
+        "runtime": "118",
+    
+        "capacity": 50,
+    
+        "showtime": "06:45PM",
+    
+        "tickets_sold": 44,
+    
+        "description": "A family gets lost on the road and stumbles upon a hidden, underground, devil-worshiping cult led by the fearsome Master and his servant Torgo.",
+    
+        "poster": "https://cdn.pixabay.com/photo/2020/05/19/00/21/background-5188867_960_720.jpg"
+    
+      },
+      {
+
+        "id": "3",
+    
+        "title": "The Giant Gila Monster",
+    
+        "runtime": "108",
+    
+        "capacity": 30,
+    
+        "showtime": "04:00PM",
+    
+        "tickets_sold": 27,
+    
+        "description": "A giant lizard terrorizes a rural Texas community and a heroic teenager attempts to destroy the creature.",
+    
+        "poster": "https://cdn.pixabay.com/photo/2016/07/24/21/05/angel-1539198_960_720.jpg"
+    
+      }
+
+    
+    ]
+    
+    }
