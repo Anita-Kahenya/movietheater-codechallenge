@@ -3,12 +3,23 @@ const movie= document.querySelector("#moviedetails")
 let films = []
 let id = 0
 function getMoviesData (url){
-    fetch(url)
+    fetch(url, {
+        method:"GET",
+        headers: {
+            "X-Master-Key" : "$2b$10$.PDAmlgr1Tbjg/pEtIqQH.v1jwP0ZJEXajNZz5L/rFYWK.21kkwDC"
+        }
+
+    })
     .then(res=>res.json())
-    .then(createPoster)
+    .then((data)=>{
+        createPoster(data.record.films)
+    })
 }
-getMoviesData("http://localhost:3000/films")
+getMoviesData("https://api.jsonbin.io/v3/b/639853dc811f2b20b0872e0f/latest")
+
+
 function createPoster(posters){
+    console.log(posters)
     filmInfo(posters[0])
     for(let poster of posters){
         films[poster.id -1] = poster
